@@ -1,0 +1,42 @@
+{
+    "Alberta": {
+        "lat": "53.9333",
+        "long": "116.5765"
+    },
+    "British Columbia": {
+        "lat": "53.7267",
+        "long": "127.6476"
+    },
+    "Manitoba": {
+        "lat": "53.7609",
+        "long": "98.8139"
+    },
+    "Newfoundland and Labrador": {
+        "lat": "53.1355",
+        "long": "57.6604"
+    },
+    "New Brunswick": {
+        "lat": "46.5653",
+        "long": "66.4619"
+    },
+    "Nova Scotia": {
+        "lat": "44.6820",
+        "long": "63.7443"
+    },
+    "Ontario": {
+        "lat": "51.2538",
+        "long": "85.3232"
+    },
+    "Ontario/Quebec": {
+        "lat": "50.78681",
+        "long": "86.08282"
+    },
+    "Quebec": {
+        "lat": "52.9399",
+        "long": "73.5491"
+    },
+    "Saskatchewan": {
+        "lat": "52.9399",
+        "long": "106.4509"
+    }
+}

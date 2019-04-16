@@ -1,0 +1,166 @@
+{
+    "Toronto": {
+        "lat": "44.0384",
+        "long": "79.2000"
+    },
+    "Montreal": {
+        "lat": "45.6066",
+        "long": "73.7124"
+    },
+    "Vancouver": {
+        "lat": "49.19854",
+        "long": "123.224215"
+    },
+    "Calgary": {
+        "lat": "51.05011",
+        "long": "114.08529"
+    },
+    "Ottawa-Gatineau": {
+        "lat": "45.4522",
+        "long": "75.6292"
+    },
+    "Edmonton": {
+        "lat": "53.6865",
+        "long": "113.5208"
+    },
+    "Quebec City": {
+        "lat": "46.829853",
+        "long": "71.254028"
+    },
+    "Winnipeg": {
+        "lat": "49.8951",
+        "long": "97.1384"
+    },
+    "Hamilton": {
+        "lat": "43.2557",
+        "long": "79.8711"
+    },
+    "Kitchener-Cambridge-Waterloo": {
+        "lat": "43.4516",
+        "long": "80.4925"
+    },
+    "London": {
+        "lat": "42.9849",
+        "long": "81.2453"
+    },
+    "St. Catharines - Niagara": {
+        "lat": "43.0896",
+        "long": "79.0849"
+    },
+    "Halifax": {
+        "lat": "44.6488",
+        "long": "63.5752"
+    },
+    "Oshawa": {
+        "lat": "43.8971",
+        "long": "78.8658"
+    },
+    "Victoria": {
+        "lat": "48.4284",
+        "long": "123.3656"
+    },
+    "Windsor": {
+        "lat": "42.3149",
+        "long": "83.0364"
+    },
+    "Saskatoon": {
+        "lat": "52.1332",
+        "long": "106.6700"
+    },
+    "Regina": {
+        "lat": "50.4452",
+        "long": "104.6189"
+    },
+    "Sherbrooke": {
+        "lat": "45.4042",
+        "long": "71.8929"
+    },
+    "St. John's": {
+        "lat": "47.5615",
+        "long": "52.7126"
+    },
+    "Barrie": {
+        "lat": "44.3894",
+        "long": "79.6903"
+    },
+    "Kelowna": {
+        "lat": "49.8880",
+        "long": "119.4960"
+    },
+    "Abbotsford–Mission": {
+        "lat": "49.0504",
+        "long": "122.3045"
+    },
+    "Greater Sudbury": {
+        "lat": "46.4917",
+        "long": "80.9930"
+    },
+    "Kingston": {
+        "lat": "44.2312",
+        "long": "76.4860"
+    },
+    "Saguenay": {
+        "lat": "48.4281",
+        "long": "71.0685"
+    },
+    "Trois-Rivieres": {
+        "lat": "46.3430",
+        "long": "72.5421"
+    },    
+    "Guelph": {
+        "lat": "43.5448",
+        "long": "80.2482"
+    },
+    "Moncton": {
+        "lat": "46.0878",
+        "long": "64.7782"
+    },
+    "Brantford": {
+        "lat": "43.1394",
+        "long": "80.2644"
+    },
+    "Saint John": {
+        "lat": "45.2733",
+        "long": "66.0633"
+    },
+    "Peterborough": {
+        "lat": "44.3091",
+        "long": "78.3197"
+    },
+    "Thunder Bay": {
+        "lat": "48.3809",
+        "long": "89.2477"
+    },
+    "Lethbridge": {
+        "lat": "49.6935",
+        "long": "112.8418"
+    },
+    "Nanaimo": {
+        "lat": "49.1659",
+        "long": "123.9401"
+    },
+    "Kamloops": {
+        "lat": "50.6745",
+        "long": "120.3273"
+    },
+    "Belleville": {
+        "lat": "44.1628",
+        "long": "77.3832"
+    },
+    "Chatham-Kent": {
+        "lat": "42.4048",
+        "long": "82.1910"
+    },
+    "Fredericton": {
+        "lat": "45.9636",
+        "long": "66.6431"
+    },
+    "Chilliwack": {
+        "lat": "49.157940",
+        "long": "121.951469"
+    },
+    "Red Deer": {
+        "lat": "52.2681",
+        "long": "113.8112"
+    }
+}
