@@ -7,7 +7,7 @@ class Tweets:
         self.mydb = mysql.connector.connect(
             host = 'localhost',
             user = 'root',
-            passwd = 'fenderpass',
+            passwd = '#password',
             database = 'canada_tweets_index3_tweets',
             collation = 'utf8mb4_unicode_ci',
             charset = 'utf8mb4'
