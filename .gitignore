@@ -1,0 +1,18 @@
+# Raw and converted thesis data: download with `geoloc download` (see README)
+data/
+
+# Cached embeddings / LLM responses
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets
+.env
+
+.DS_Store
