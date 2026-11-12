@@ -54,9 +54,11 @@ def user_vectors(users: pd.DataFrame) -> np.ndarray:
 def classifier():
     from sklearn.linear_model import LogisticRegression
     from sklearn.pipeline import make_pipeline
-    from sklearn.preprocessing import StandardScaler
+    from sklearn.preprocessing import Normalizer
 
-    return make_pipeline(StandardScaler(), LogisticRegression(C=0.05, max_iter=3000, class_weight="balanced"))
+    # Class weighting pushed predictions toward metros with two users and fell
+    # below the majority baseline; plain L2-normalised vectors do best in CV.
+    return make_pipeline(Normalizer(), LogisticRegression(C=10, max_iter=3000))
 
 
 def run(level: str) -> None:
