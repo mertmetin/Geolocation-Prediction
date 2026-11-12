@@ -1,0 +1,5 @@
+gradio>=5
+plotly>=5
+scikit-learn==1.9.1  # must match the version that pickled model.joblib
+joblib
+numpy

@@ -100,6 +100,7 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--limit", type=int, default=None)
     s.add_argument("--model", default=None)
     sub.add_parser("report", help="Write results/README tables and figures")
+    sub.add_parser("train-demo", help="Train the small model behind the web demo (app/model.joblib)")
     args = p.parse_args(argv)
 
     np.seterr(all="ignore")
@@ -125,6 +126,15 @@ def main(argv: list[str] | None = None) -> None:
         from .llm import run
 
         run(level=args.level, limit=args.limit, model=args.model)
+    elif args.cmd == "train-demo":
+        import json
+
+        from .demo_model import train
+        from .labels import METRO_COORDS
+
+        train()
+        with open("app/metros.json", "w") as f:
+            json.dump(METRO_COORDS, f, ensure_ascii=False, indent=1)
     elif args.cmd == "report":
         from .report import build
 

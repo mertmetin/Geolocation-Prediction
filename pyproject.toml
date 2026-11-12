@@ -17,6 +17,7 @@ dependencies = [
 [project.optional-dependencies]
 embeddings = ["sentence-transformers>=3.0"]
 llm = ["anthropic>=0.40"]
+app = ["gradio>=5", "plotly>=5", "joblib"]
 dev = ["pytest>=8", "ruff>=0.6"]
 
 [project.scripts]
