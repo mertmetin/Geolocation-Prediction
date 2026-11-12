@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "task": "user_graph_metro",
+    "level": "metro",
+    "n": 420
+  },
+  "vote": {
+    "description": "Majority vote, friends + followers",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.8333333333333334,
+      "acc161": 0.8833333333333333,
+      "mean_km": 184.31049620138594,
+      "median_km": 0.0
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.8333333333333334,
+      "acc161": 0.8571428571428571,
+      "mean_km": 74.88506527075766,
+      "median_km": 0.0
+    },
+    "seconds": 0.0
+  },
+  "logreg": {
+    "description": "Logistic regression, friends + followers",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.7761904761904762,
+      "acc161": 0.8380952380952381,
+      "mean_km": 221.126885957716,
+      "median_km": 0.0
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.7380952380952381,
+      "acc161": 0.8095238095238095,
+      "mean_km": 180.69924950581182,
+      "median_km": 0.0
+    },
+    "seconds": 0.2
+  }
+}

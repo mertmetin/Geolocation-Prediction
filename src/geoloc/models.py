@@ -166,5 +166,5 @@ TEXT_MODELS: dict[str, tuple[str, Factory]] = {
     "svm_2019": ("2019: TF-IDF + linear SVM", legacy_svm),
     "mlp_2019": ("2019: hashed TF-IDF + MLP", legacy_mlp),
     "cnb_2026": ("2026: word-bigram TF-IDF + Complement NB", tfidf_cnb),
-    "logreg_2026": ("2026: word + char TF-IDF + logistic regression", tfidf_logreg),
+    "logreg_2026": ("2026: word + hashtag TF-IDF + logistic regression", tfidf_logreg),
 }

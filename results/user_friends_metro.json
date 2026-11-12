@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "task": "user_friends_metro",
+    "level": "metro",
+    "n": 420
+  },
+  "vote": {
+    "description": "Majority vote of neighbour locations",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.7857142857142857,
+      "acc161": 0.8428571428571429,
+      "mean_km": 211.1206233519098,
+      "median_km": 0.0
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.8214285714285714,
+      "acc161": 0.8452380952380952,
+      "mean_km": 114.61218148846386,
+      "median_km": 0.0
+    },
+    "seconds": 0.0
+  },
+  "logreg": {
+    "description": "Logistic regression on neighbour location counts",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.7333333333333333,
+      "acc161": 0.7976190476190477,
+      "mean_km": 321.00642224661175,
+      "median_km": 0.0
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.7619047619047619,
+      "acc161": 0.7976190476190477,
+      "mean_km": 265.9104423680953,
+      "median_km": 0.0
+    },
+    "seconds": 0.2
+  }
+}

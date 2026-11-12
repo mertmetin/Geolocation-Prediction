@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "task": "user_text_province",
+    "level": "province",
+    "n": 420
+  },
+  "majority": {
+    "description": "2019 baseline: always predict the most common class",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.3976190476190476,
+      "acc161": 0.44761904761904764,
+      "mean_km": 935.8913961057806,
+      "median_km": 824.8282451615528
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.4523809523809524,
+      "acc161": 0.5,
+      "mean_km": 870.6000235911548,
+      "median_km": 449.5604773543974
+    },
+    "seconds": 0.0
+  },
+  "uniform": {
+    "description": "2019 baseline: random class",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.08333333333333333,
+      "acc161": 0.15,
+      "mean_km": 1611.241697242374,
+      "median_km": 1449.990513311044
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.08333333333333333,
+      "acc161": 0.10714285714285714,
+      "mean_km": 1634.1239893812499,
+      "median_km": 1449.990513311044
+    },
+    "seconds": 0.0
+  },
+  "mnb_2019": {
+    "description": "2019: TF-IDF + Multinomial NB",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.3976190476190476,
+      "acc161": 0.44761904761904764,
+      "mean_km": 935.8913961057806,
+      "median_km": 824.8282451615528
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.4523809523809524,
+      "acc161": 0.5,
+      "mean_km": 870.6000235911548,
+      "median_km": 449.5604773543974
+    },
+    "seconds": 30.9
+  },
+  "svm_2019": {
+    "description": "2019: TF-IDF + linear SVM",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.55,
+      "acc161": 0.5928571428571429,
+      "mean_km": 687.0387053369955,
+      "median_km": 0.0
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.5833333333333334,
+      "acc161": 0.6309523809523809,
+      "mean_km": 630.8229713805074,
+      "median_km": 0.0
+    },
+    "seconds": 34.9
+  },
+  "embed_2026": {
+    "description": "2026: multilingual MiniLM sentence embeddings + logistic regression",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.430952380952381,
+      "acc161": 0.4714285714285714,
+      "mean_km": 923.8015309684807,
+      "median_km": 824.8282451615528
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.44047619047619047,
+      "acc161": 0.47619047619047616,
+      "mean_km": 896.9268370704549,
+      "median_km": 775.4988733218099
+    },
+    "seconds": 0.2
+  },
+  "cnb_2026": {
+    "description": "2026: word-bigram TF-IDF + Complement NB",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.4,
+      "acc161": 0.45,
+      "mean_km": 933.9275193315866,
+      "median_km": 824.8282451615528
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.4523809523809524,
+      "acc161": 0.5,
+      "mean_km": 870.6000235911548,
+      "median_km": 449.5604773543974
+    },
+    "seconds": 91.4
+  },
+  "logreg_2026": {
+    "description": "2026: word + hashtag TF-IDF + logistic regression",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.7166666666666667,
+      "acc161": 0.7547619047619047,
+      "mean_km": 426.8347064570793,
+      "median_km": 0.0
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.7023809523809523,
+      "acc161": 0.75,
+      "mean_km": 403.6039112472617,
+      "median_km": 0.0
+    },
+    "seconds": 112.8
+  },
+  "mlp_2019": {
+    "description": "2019: hashed TF-IDF + MLP",
+    "cv": {
+      "n": 420,
+      "accuracy": 0.3976190476190476,
+      "acc161": 0.44761904761904764,
+      "mean_km": 935.8913961057806,
+      "median_km": 824.8282451615528
+    },
+    "split_2019": {
+      "n": 84,
+      "accuracy": 0.4523809523809524,
+      "acc161": 0.5,
+      "mean_km": 870.6000235911548,
+      "median_km": 449.5604773543974
+    },
+    "seconds": 518.6
+  }
+}
