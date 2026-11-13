@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: uv pip install -e ".[dev,app]"
+      - name: Lint
+        run: uv run --no-sync ruff check src tests app
+      - name: Format
+        run: uv run --no-sync ruff format --check src tests app
+      - name: Test
+        run: uv run --no-sync pytest -q

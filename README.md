@@ -1,5 +1,7 @@
 # Geolocation-Prediction
 
+[![CI](https://github.com/mertmetin/Geolocation-Prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/mertmetin/Geolocation-Prediction/actions/workflows/ci.yml)
+
 **Where does a Twitter user live? Predicting home cities across Canada from what people tweet and who they follow.**
 
 This is my thesis project from the **University of Ottawa** (2019). In 2026 I rebuilt it from the original research scripts: I fixed the bugs I found along the way, rebuilt it as a reproducible Python package, re-ran every experiment under a stricter evaluation, compared the 2019 models against modern baselines, and added a web demo.
