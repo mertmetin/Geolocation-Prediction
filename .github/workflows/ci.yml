@@ -14,7 +14,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install
-        run: uv pip install -e ".[dev,app]"
+        run: |
+          uv venv
+          uv pip install -e ".[dev,app]"
       - name: Lint
         run: uv run --no-sync ruff check src tests app
       - name: Format
